@@ -1,0 +1,100 @@
+body, html {
+    margin: 0px;
+    padding-top: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#login-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#login-form input[type="text"]::placeholder {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(108, 107, 107);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#clock {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+
+#todo-form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 300px;
+}
+
+#todo-form input[type="text"]::placeholder {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+}
+
+#todo-list {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-list li {
+    margin: 5px 0;
+}
+
+#todo-list span {
+    margin-right: 150px;
+}
+
+#todo-list button {
+    position: absolute;
+    right: 0px;
+}
+
+#quote {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px
+}
+
+#quote span {
+    display: block;
+    text-align: center;
+}
+
+#weather span {
+    display: block;
+    text-align: center;
+}
